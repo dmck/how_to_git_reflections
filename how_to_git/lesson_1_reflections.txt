@@ -1,0 +1,7 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+By using the command "fc" on Windows I was shown snippets of the two files which included differences between the two versions. It seems like this could be useful for finding typos and changes, but not logical errors in a design.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+It can help prevent having to do the same thing twice. If the old file is there, then it's easy to remember how it used to work. It's easier to return to old code. It's easier to re-use old code (because it wasn't thrown away).
