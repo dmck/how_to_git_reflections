@@ -13,3 +13,9 @@ Branches are series of commits, and given names. Clones are copies of repositori
 > What is the benefit of having a copy of the last known state of the remote stored locally?
 
 Differences arise between local and remote, and from time to time need to be reconciled. Since it’s usually easier to do that merge locally and then push the result, a local copy of the remote in needed. Having it locally also allows this to be done offline which can be faster and more convenient. If the local copy of the remote branch is out of date, then it wouldn’t do much good, because you might just get another merge conflict.
+
+> How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Without both, I would lose significant ability to do version-control and collaboration. It would involve keeping track of which files and which parts of files have been changed, then communicating that to one another. This could be done by email, chat, in person, phone, etc. however each means of communication are removed from the code itself. The pull requests let collaborators talk to each other within code, and lets folks literally read between the lines.
+
+[As an aside, I notice that adding a blank line prevents the prior line from being shown as changed, which the substance of it really wasn't.]
