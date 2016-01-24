@@ -9,3 +9,7 @@ When making fried chicken, it's best to have a wet hand and a dry hand. If the t
 >Describe the differences between forks, clones, and branches. When would you use one instead of another?
 
 Branches are series of commits, and given names. Clones are copies of repositories. A fork is a clone on GitHub which lets them associate one repository with another. A clone would be sufficient to run and use the code, but forking would be better when making changes.
+
+> What is the benefit of having a copy of the last known state of the remote stored locally?
+
+Differences arise between local and remote, and from time to time need to be reconciled. Since it’s usually easier to do that merge locally and then push the result, a local copy of the remote in needed. Having it locally also allows this to be done offline which can be faster and more convenient. If the local copy of the remote branch is out of date, then it wouldn’t do much good, because you might just get another merge conflict.
