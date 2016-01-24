@@ -1,3 +1,4 @@
+
 > When would you want to use a remote repository rather than keeping all your work local?
 
 When multiple people are working on the project, and maybe as a backup. It's also easier than carrying around a tower, or laptop. So convenience is another reason.
@@ -19,3 +20,7 @@ Differences arise between local and remote, and from time to time need to be rec
 Without both, I would lose significant ability to do version-control and collaboration. It would involve keeping track of which files and which parts of files have been changed, then communicating that to one another. This could be done by email, chat, in person, phone, etc. however each means of communication are removed from the code itself. The pull requests let collaborators talk to each other within code, and lets folks literally read between the lines.
 
 [As an aside, I notice that adding a blank line prevents the prior line from being shown as changed, which the substance of it really wasn't.]
+
+> When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+A separate branch is almost like a spare computer. I can almost instanciate another laptop, slap a label on it naming what I'm working on with it, then set it aside without messing up the master. I'd venture to say it almost always makes sense to use a separate branch, as long as the project is big enough to warrant this. It's just a couple lines in the command prompt, but offers a lot of organization and safety. Then when using GitHub and pull requests, that's a whole aspect that wouldn't be possible if I were just making changes to master. However, working in master is probably a good starting point to initially frame everything out.
